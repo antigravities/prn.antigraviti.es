@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      window.addEventListener("message", function(){
+        if( e.origin !== "http://prn.antigraviti.es" ) return;
+        if( e.data == "IE" ) document.write("Yes");
+        else document.write("No");
+      });
+    </script>
+    <title>
+      Am I running IE/Edge?
+    </title>
+  </head>
+  <body>
+  </body>
+</html>
