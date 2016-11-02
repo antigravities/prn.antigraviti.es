@@ -1,7 +1,7 @@
 <html>
   <head>
     <script type="text/javascript">
-      window.addEventListener("message", function(){
+      window.addEventListener("message", function(e){
         if( e.origin !== "http://prn.antigraviti.es" ) return;
         if( e.data == "IE" ) document.write("Yes");
         else document.write("No");
